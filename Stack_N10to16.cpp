@@ -1,5 +1,5 @@
-#include<iostream>
-using namespace std;
+//#include<iostream>
+//using namespace std;
 #include"SqStack.h"
 void N10to16(int n)
 {
