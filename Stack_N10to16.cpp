@@ -31,7 +31,6 @@ int main()
 {
 	int n;
 	bool choice;
-	system("cls");
 	do 
 	{
 		dispmenu();
@@ -40,8 +39,11 @@ int main()
 		switch (choice)
 		{
 		case 1:
+			cout << "Please input a number:\n";
 			cin >> n;
-			N10to16(n);
+			cout << "n转换为十六进制为：";
+			N10to16(n);                                               //调用N10to16
+			break;
 		case 0:														// 退出
 			cout << "结束运行 Bye-bye!" << endl;
 			break;
@@ -49,5 +51,8 @@ int main()
 			cout << "无效选择!\n";
 			break;
 		}
+		system("pause");
+		system("cls");
 	} while (choice);
+	return 0;
 }
