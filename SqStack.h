@@ -1,3 +1,4 @@
+
 template <class DT>
 struct SqStack															// À≥–Ú’ª
 {
